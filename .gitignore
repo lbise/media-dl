@@ -1,0 +1,9 @@
+*.log
+cache
+db
+logs
+*.db
+*.pid
+*.db-shm
+*.db-wal
+.mono
