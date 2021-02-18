@@ -1,9 +1,11 @@
 *.log
 cache
 db
+log
 logs
 *.db
 *.pid
 *.db-shm
 *.db-wal
 .mono
+MediaCover
