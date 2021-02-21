@@ -6,12 +6,13 @@ services:
     restart: unless-stopped
     network_mode: host
     environment:
-      - PUID=${PUID} # default user id, defined in .env
+      - PUID=${NZBGETPUID} # default user id, defined in .env
       - PGID=${PGID} # default group id, defined in .env
       - TZ=${TZ} # timezone, defined in .env
+      - UMASK_SET=002 # Folder 775 (drwxrwxr-x) Files 664 (-rw-rw-r--)
     volumes:
-      - ${DL}/downloads:/downloads # download folder
       - ${CFG}/config/nzbget:/config # config files
+      - ${DL}:/downloads # download folder
 
   sonarr:
     container_name: sonarr
@@ -19,14 +20,14 @@ services:
     restart: unless-stopped
     network_mode: host
     environment:
-      - PUID=${PUID} # default user id, defined in .env
+      - PUID=${SONARRPUID} # default user id, defined in .env
       - PGID=${PGID} # default group id, defined in .env
       - TZ=${TZ} # timezone, defined in .env
+      - UMASK_SET=002 # Folder 775 (drwxrwxr-x) Files 664 (-rw-rw-r--)
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ${CFG}/config/sonarr:/config # config files
-      - ${MEDIA}/complete/tv:/tv # tv shows folder
-      - ${DL}/downloads:/downloads # download folder
+      - ${DATA}:/data
 
   radarr:
     container_name: radarr
@@ -34,14 +35,14 @@ services:
     restart: unless-stopped
     network_mode: host
     environment:
-      - PUID=${PUID} # default user id, defined in .env
+      - PUID=${RADARRPUID} # default user id, defined in .env
       - PGID=${PGID} # default group id, defined in .env
       - TZ=${TZ} # timezone, defined in .env
+      - UMASK_SET=002 # Folder 775 (drwxrwxr-x) Files 664 (-rw-rw-r--)
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ${CFG}/config/radarr:/config # config files
-      - ${MEDIA}/complete/movies:/movies # movies folder
-      - ${DL}/downloads:/downloads # download folder
+      - ${DATA}:/data
 
   bazarr:
     container_name: bazarr
@@ -49,11 +50,10 @@ services:
     restart: unless-stopped
     network_mode: host
     environment:
-      - PUID=${PUID} # default user id, defined in .env
+      - PUID=${BAZARRPUID} # default user id, defined in .env
       - PGID=${PGID} # default group id, defined in .env
       - TZ=${TZ} # timezone, defined in .env
-      - UMASK_SET=022 #optional
+      - UMASK_SET=002 # Folder 775 (drwxrwxr-x) Files 664 (-rw-rw-r--)
     volumes:
       - ${CFG}/config/bazarr:/config # config files
-      - ${MEDIA}/complete/movies:/movies # movies folder
-      - ${MEDIA}/complete/tv:/tv # tv shows folder
+      - ${DATA}:/data
