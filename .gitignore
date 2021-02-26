@@ -9,3 +9,5 @@ logs
 *.db-wal
 .mono
 MediaCover
+config/radarr/Backups
+config/sonarr/Backups
