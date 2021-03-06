@@ -1,0 +1,37 @@
+27/02/2021 00:10:09|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+27/02/2021 00:38:28|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+27/02/2021 03:10:09|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+27/02/2021 03:38:28|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+27/02/2021 04:00:00|INFO    |root                            |BAZARR All existing episode subtitles indexed from disk.|
+27/02/2021 05:00:00|INFO    |root                            |BAZARR All existing movie subtitles indexed from disk.|
+27/02/2021 06:10:09|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+27/02/2021 06:38:28|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+27/02/2021 07:42:34|INFO    |root                            |BAZARR is started and waiting for request on http://0.***.***.***:6767/|
+27/02/2021 10:09:55|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+27/02/2021 10:42:08|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+27/02/2021 13:09:55|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+27/02/2021 13:31:36|INFO    |root                            |Throttling soustitreseu for 10 minutes, until 21/02/27 13:41, because of: KeyError. Exception info: 'season'|
+27/02/2021 13:31:38|INFO    |root                            |Throttling soustitreseu for 10 minutes, until 21/02/27 13:41, because of: KeyError. Exception info: 'season'|
+27/02/2021 13:41:30|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+27/02/2021 13:46:32|INFO    |root                            |Using soustitreseu again after 10 minutes, (disabled because: KeyError)|
+27/02/2021 13:46:38|INFO    |root                            |Throttling soustitreseu for 10 minutes, until 21/02/27 13:56, because of: KeyError. Exception info: 'season'|
+27/02/2021 13:46:44|INFO    |root                            |Throttling soustitreseu for 10 minutes, until 21/02/27 13:56, because of: KeyError. Exception info: 'season'|
+27/02/2021 14:52:18|INFO    |root                            |Using soustitreseu again after 10 minutes, (disabled because: KeyError)|
+27/02/2021 16:09:55|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+27/02/2021 16:41:46|INFO    |root                            |Throttling soustitreseu for 10 minutes, until 21/02/27 16:51, because of: KeyError. Exception info: 'season'|
+27/02/2021 16:41:52|INFO    |root                            |Throttling soustitreseu for 10 minutes, until 21/02/27 16:51, because of: KeyError. Exception info: 'season'|
+27/02/2021 16:41:59|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+27/02/2021 16:42:11|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+27/02/2021 19:06:51|INFO    |root                            |Using soustitreseu again after 10 minutes, (disabled because: KeyError)|
+27/02/2021 19:06:55|INFO    |root                            |Throttling soustitreseu for 10 minutes, until 21/02/27 19:16, because of: KeyError. Exception info: 'season'|
+27/02/2021 19:07:21|INFO    |root                            |BAZARR Finished searching for Subtitles to upgrade. Check History for more information.|
+27/02/2021 19:09:55|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+27/02/2021 19:41:21|INFO    |root                            |Using soustitreseu again after 10 minutes, (disabled because: KeyError)|
+27/02/2021 19:41:43|INFO    |root                            |Throttling soustitreseu for 10 minutes, until 21/02/27 19:51, because of: KeyError. Exception info: 'season'|
+27/02/2021 19:41:49|INFO    |root                            |Throttling soustitreseu for 10 minutes, until 21/02/27 19:51, because of: KeyError. Exception info: 'season'|
+27/02/2021 19:41:58|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+27/02/2021 22:09:55|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+27/02/2021 22:41:21|INFO    |root                            |Using soustitreseu again after 10 minutes, (disabled because: KeyError)|
+27/02/2021 22:41:37|INFO    |root                            |Throttling soustitreseu for 10 minutes, until 21/02/27 22:51, because of: KeyError. Exception info: 'season'|
+27/02/2021 22:41:39|INFO    |root                            |Throttling soustitreseu for 10 minutes, until 21/02/27 22:51, because of: KeyError. Exception info: 'season'|
+27/02/2021 22:41:48|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|

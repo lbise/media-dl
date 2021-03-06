@@ -1,13 +1,3 @@
-*.log
-cache
-db
-log
-logs
-*.db
-*.pid
+config/radarr/radarr.db
 *.db-shm
 *.db-wal
-.mono
-MediaCover
-config/radarr/Backups
-config/sonarr/Backups
