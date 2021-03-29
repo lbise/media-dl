@@ -1,479 +1,405 @@
-21-3-6 07:50:05.1|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/The Daily Show/Season_26/The_Daily_Show-2021_03_02-WEBDL-1080p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/The Daily Show/Season_26/The_Daily_Show-2021_03_02-WEBDL-1080p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.1|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/The Daily Show/Season_26/The_Daily_Show-2021_03_03-WEBDL-1080p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/The Daily Show/Season_26/The_Daily_Show-2021_03_03-WEBDL-1080p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.1|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/The Daily Show/Season_26/The_Daily_Show-2021_03_04-WEBDL-1080p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/The Daily Show/Season_26/The_Daily_Show-2021_03_04-WEBDL-1080p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.1|Info|RenameEpisodeFileService|All episode files renamed for The Daily Show
-21-3-6 07:50:05.1|Info|RenameEpisodeFileService|Renaming all files in series: Devs
-21-3-6 07:50:05.1|Info|RenameEpisodeFileService|All episode files renamed for Devs
-21-3-6 07:50:05.1|Info|RenameEpisodeFileService|Renaming all files in series: Full Frontal with Samantha Bee
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Full Frontal with Samantha Bee/Season_6/Full_Frontal_with_Samantha_Bee-S06E06-WEBDL-1080p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Full Frontal with Samantha Bee/Season_6/Full_Frontal_with_Samantha_Bee-S06E06-WEBDL-1080p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Info|RenameEpisodeFileService|All episode files renamed for Full Frontal with Samantha Bee
-21-3-6 07:50:05.2|Info|RenameEpisodeFileService|Renaming all files in series: Raised by Wolves (2020)
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Raised by Wolves (2020)/Season_1/Raised_by_Wolves_2020-S01E01-WEBDL-1080p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Raised by Wolves (2020)/Season_1/Raised_by_Wolves_2020-S01E01-WEBDL-1080p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Info|RenameEpisodeFileService|All episode files renamed for Raised by Wolves (2020)
-21-3-6 07:50:05.2|Info|RenameEpisodeFileService|Renaming all files in series: Schitt's Creek
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E01-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E01-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E02-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E02-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E03-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E03-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E04-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E04-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E05-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E05-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E06-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E06-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E07-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E07-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E08-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E08-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E09-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E09-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E10-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E10-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E11-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E11-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E12-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E12-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.2|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E13-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_3/Schitts_Creek-S03E13-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E01-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E01-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E02-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E02-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E03-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E03-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E04-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E04-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E05-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E05-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E06-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E06-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E07-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E07-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E08-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E08-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E09-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E09-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E10-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E10-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E11-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E11-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E12-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E12-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E13-WEBDL-720p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Schitt's Creek/Season_2/Schitts_Creek-S02E13-WEBDL-720p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Info|RenameEpisodeFileService|All episode files renamed for Schitt's Creek
-21-3-6 07:50:05.3|Info|RenameEpisodeFileService|Renaming all files in series: Survivor
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Survivor/Season_39/Survivor-S39E14-WEBDL-1080p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Survivor/Season_39/Survivor-S39E14-WEBDL-1080p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/Survivor/Season_39/Survivor-S39E01-WEBDL-1080p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/Survivor/Season_39/Survivor-S39E01-WEBDL-1080p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Info|RenameEpisodeFileService|All episode files renamed for Survivor
-21-3-6 07:50:05.3|Info|RenameEpisodeFileService|Renaming all files in series: The Good Lord Bird
-21-3-6 07:50:05.3|Error|RenameEpisodeFileService|Failed to rename file /data/media/tv2/The Good Lord Bird/Season_1/The_Good_Lord_Bird-S01E01-WEBDL-1080p.mkv
-
-[v2.0.0.5344] System.IO.FileNotFoundException: Episode file path does not exist
-File name: '/data/media/tv2/The Good Lord Bird/Season_1/The_Good_Lord_Bird-S01E01-WEBDL-1080p.mkv'
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.TransferFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series, System.Collections.Generic.List`1[T] episodes, System.String destinationFilePath, NzbDrone.Common.Disk.TransferMode mode) [0x001f4] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:144 
-  at NzbDrone.Core.MediaFiles.EpisodeFileMovingService.MoveEpisodeFile (NzbDrone.Core.MediaFiles.EpisodeFile episodeFile, NzbDrone.Core.Tv.Series series) [0x0008b] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\EpisodeFileMovingService.cs:69 
-  at NzbDrone.Core.MediaFiles.RenameEpisodeFileService.RenameFiles (System.Collections.Generic.List`1[T] episodeFiles, NzbDrone.Core.Tv.Series series) [0x0003d] in C:\BuildAgent\work\5d7581516c0ee5b3\src\NzbDrone.Core\MediaFiles\RenameEpisodeFileService.cs:122 
-
-21-3-6 07:50:05.3|Info|RenameEpisodeFileService|All episode files renamed for The Good Lord Bird
-21-3-6 07:51:06.5|Info|RssSyncService|Starting RSS Sync
-21-3-6 07:51:10.7|Info|DownloadDecisionMaker|Processing 185 releases
-21-3-6 07:51:10.9|Info|RssSyncService|RSS Sync Completed. Reports found: 185, Reports grabbed: 0
-21-3-6 07:51:14.9|Info|RenameEpisodeFileService|Renaming all files in series: The Amazing Race
-21-3-6 07:51:15.0|Info|RenameEpisodeFileService|All episode files renamed for The Amazing Race
-21-3-6 07:51:15.0|Info|RenameEpisodeFileService|Renaming all files in series: Last Week Tonight with John Oliver
-21-3-6 07:51:15.0|Info|RenameEpisodeFileService|All episode files renamed for Last Week Tonight with John Oliver
-21-3-6 07:51:15.0|Info|RenameEpisodeFileService|Renaming all files in series: What We Do in the Shadows
-21-3-6 07:51:15.0|Info|RenameEpisodeFileService|All episode files renamed for What We Do in the Shadows
-21-3-6 07:51:15.0|Info|RenameEpisodeFileService|Renaming all files in series: The Mandalorian
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|All episode files renamed for The Mandalorian
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|Renaming all files in series: Alone
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|All episode files renamed for Alone
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|Renaming all files in series: The Daily Show
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|All episode files renamed for The Daily Show
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|Renaming all files in series: Devs
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|All episode files renamed for Devs
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|Renaming all files in series: Full Frontal with Samantha Bee
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|All episode files renamed for Full Frontal with Samantha Bee
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|Renaming all files in series: Raised by Wolves (2020)
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|All episode files renamed for Raised by Wolves (2020)
-21-3-6 07:51:15.1|Info|RenameEpisodeFileService|Renaming all files in series: Schitt's Creek
-21-3-6 07:51:15.2|Info|RenameEpisodeFileService|All episode files renamed for Schitt's Creek
-21-3-6 07:51:15.2|Info|RenameEpisodeFileService|Renaming all files in series: Survivor
-21-3-6 07:51:15.2|Info|RenameEpisodeFileService|All episode files renamed for Survivor
-21-3-6 07:51:15.2|Info|RenameEpisodeFileService|Renaming all files in series: The Good Lord Bird
-21-3-6 07:51:15.2|Info|RenameEpisodeFileService|All episode files renamed for The Good Lord Bird
-21-3-6 08:00:19.7|Info|SceneMappingService|Updating Scene mappings
-21-3-6 08:00:21.7|Info|RefreshSeriesService|Updating Info for The Amazing Race
-21-3-6 08:00:21.8|Info|RefreshEpisodeService|Starting episode info refresh for: [77666][The Amazing Race]
-21-3-6 08:00:22.0|Info|RefreshEpisodeService|Finished episode refresh for series: [77666][The Amazing Race].
-21-3-6 08:00:22.0|Info|DiskScanService|Scanning disk for The Amazing Race
-21-3-6 08:00:22.1|Info|DiskScanService|Completed scanning disk for The Amazing Race
-21-3-6 08:00:22.1|Info|ExistingMetadataImporter|Found 0 existing metadata files
-21-3-6 08:00:22.1|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
-21-3-6 08:00:22.1|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
-21-3-6 08:00:22.1|Info|ExistingExtraFileService|Found 0 extra files
-21-3-6 08:01:01.8|Info|RefreshSeriesService|Updating Info for The Daily Show
-21-3-6 08:01:02.0|Info|RefreshEpisodeService|Starting episode info refresh for: [71256][The Daily Show]
-21-3-6 08:01:03.7|Info|RefreshEpisodeService|Finished episode refresh for series: [71256][The Daily Show].
-21-3-6 08:01:03.7|Info|DiskScanService|Scanning disk for The Daily Show
-21-3-6 08:01:03.9|Info|DiskScanService|Completed scanning disk for The Daily Show
-21-3-6 08:01:03.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
-21-3-6 08:01:03.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
-21-3-6 08:01:03.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
-21-3-6 08:01:03.9|Info|ExistingExtraFileService|Found 0 extra files
-21-3-6 08:01:26.3|Info|SceneMappingService|Updating Scene mappings
-21-3-6 08:01:28.0|Info|RefreshSeriesService|Updating Info for Full Frontal with Samantha Bee
-21-3-6 08:01:28.4|Info|RefreshEpisodeService|Starting episode info refresh for: [303438][Full Frontal with Samantha Bee]
-21-3-6 08:01:28.6|Info|RefreshEpisodeService|Finished episode refresh for series: [303438][Full Frontal with Samantha Bee].
-21-3-6 08:01:28.6|Info|DiskScanService|Scanning disk for Full Frontal with Samantha Bee
-21-3-6 08:01:28.6|Info|DiskScanService|Completed scanning disk for Full Frontal with Samantha Bee
-21-3-6 08:01:28.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
-21-3-6 08:01:28.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
-21-3-6 08:01:28.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
-21-3-6 08:01:28.6|Info|ExistingExtraFileService|Found 0 extra files
-21-3-6 08:01:38.5|Info|RefreshSeriesService|Updating Info for The Good Lord Bird
-21-3-6 08:01:38.6|Info|RefreshEpisodeService|Starting episode info refresh for: [367633][The Good Lord Bird]
-21-3-6 08:01:38.6|Info|RefreshEpisodeService|Finished episode refresh for series: [367633][The Good Lord Bird].
-21-3-6 08:01:38.6|Info|DiskScanService|Scanning disk for The Good Lord Bird
-21-3-6 08:01:38.6|Info|DiskScanService|Completed scanning disk for The Good Lord Bird
-21-3-6 08:01:38.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
-21-3-6 08:01:38.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
-21-3-6 08:01:38.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
-21-3-6 08:01:38.6|Info|ExistingExtraFileService|Found 0 extra files
-21-3-6 08:01:50.5|Info|RefreshSeriesService|Updating Info for Last Week Tonight with John Oliver
-21-3-6 08:01:50.6|Info|RefreshEpisodeService|Starting episode info refresh for: [278518][Last Week Tonight with John Oliver]
-21-3-6 08:01:50.7|Info|RefreshEpisodeService|Finished episode refresh for series: [278518][Last Week Tonight with John Oliver].
-21-3-6 08:01:50.7|Info|DiskScanService|Scanning disk for Last Week Tonight with John Oliver
-21-3-6 08:01:50.8|Info|DiskScanService|Completed scanning disk for Last Week Tonight with John Oliver
-21-3-6 08:01:50.8|Info|ExistingMetadataImporter|Found 0 existing metadata files
-21-3-6 08:01:50.8|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
-21-3-6 08:01:50.8|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
-21-3-6 08:01:50.8|Info|ExistingExtraFileService|Found 0 extra files
-21-3-6 08:02:04.6|Info|RefreshSeriesService|Updating Info for The Mandalorian
-21-3-6 08:02:04.7|Info|RefreshEpisodeService|Starting episode info refresh for: [361753][The Mandalorian]
-21-3-6 08:02:04.7|Info|RefreshEpisodeService|Finished episode refresh for series: [361753][The Mandalorian].
-21-3-6 08:02:04.7|Info|DiskScanService|Scanning disk for The Mandalorian
-21-3-6 08:02:04.7|Info|DiskScanService|Completed scanning disk for The Mandalorian
-21-3-6 08:02:04.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
-21-3-6 08:02:04.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
-21-3-6 08:02:04.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
-21-3-6 08:02:04.7|Info|ExistingExtraFileService|Found 0 extra files
-21-3-6 08:02:23.1|Info|RefreshSeriesService|Updating Info for Raised by Wolves (2020)
-21-3-6 08:02:23.1|Info|RefreshEpisodeService|Starting episode info refresh for: [368643][Raised by Wolves (2020)]
-21-3-6 08:02:23.2|Info|RefreshEpisodeService|Finished episode refresh for series: [368643][Raised by Wolves (2020)].
-21-3-6 08:02:23.2|Info|DiskScanService|Scanning disk for Raised by Wolves (2020)
-21-3-6 08:02:23.2|Info|DiskScanService|Completed scanning disk for Raised by Wolves (2020)
-21-3-6 08:02:23.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
-21-3-6 08:02:23.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
-21-3-6 08:02:23.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
-21-3-6 08:02:23.2|Info|ExistingExtraFileService|Found 0 extra files
-21-3-6 08:02:36.6|Info|SceneMappingService|Updating Scene mappings
-21-3-6 08:02:38.3|Info|RefreshSeriesService|Updating Info for Schitt's Creek
-21-3-6 08:02:38.4|Info|RefreshEpisodeService|Starting episode info refresh for: [287247][Schitt's Creek]
-21-3-6 08:02:38.5|Info|RefreshEpisodeService|Finished episode refresh for series: [287247][Schitt's Creek].
-21-3-6 08:02:38.5|Info|DiskScanService|Scanning disk for Schitt's Creek
-21-3-6 08:02:38.5|Info|DiskScanService|Completed scanning disk for Schitt's Creek
-21-3-6 08:02:38.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
-21-3-6 08:02:38.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
-21-3-6 08:02:38.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
-21-3-6 08:02:38.5|Info|ExistingExtraFileService|Found 0 extra files
-21-3-6 08:03:00.0|Info|RefreshSeriesService|Updating Info for What We Do in the Shadows
-21-3-6 08:03:00.1|Info|RefreshEpisodeService|Starting episode info refresh for: [358211][What We Do in the Shadows]
-21-3-6 08:03:00.1|Info|RefreshEpisodeService|Finished episode refresh for series: [358211][What We Do in the Shadows].
-21-3-6 08:03:00.1|Info|DiskScanService|Scanning disk for What We Do in the Shadows
-21-3-6 08:03:00.1|Info|DiskScanService|Completed scanning disk for What We Do in the Shadows
-21-3-6 08:03:00.1|Info|ExistingMetadataImporter|Found 0 existing metadata files
-21-3-6 08:03:00.1|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
-21-3-6 08:03:00.1|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
-21-3-6 08:03:00.1|Info|ExistingExtraFileService|Found 0 extra files
-21-3-6 08:03:30.8|Info|AddSeriesService|Adding Series [121361][Game of Thrones] Path: [/data/media/tv/Game_of_Thrones]
-21-3-6 08:03:30.9|Info|RefreshSeriesService|Updating Info for Game of Thrones
-21-3-6 08:03:31.0|Info|RefreshEpisodeService|Starting episode info refresh for: [121361][Game of Thrones]
-21-3-6 08:03:31.0|Info|RefreshEpisodeService|Finished episode refresh for series: [121361][Game of Thrones].
-21-3-6 08:03:31.0|Info|DiskScanService|Scanning disk for Game of Thrones
-21-3-6 08:03:31.0|Info|DiskScanService|Completed scanning disk for Game of Thrones
-21-3-6 08:03:31.0|Info|SeriesScannedHandler|[Game of Thrones] was recently added, performing post-add actions
-21-3-6 08:03:31.1|Info|MediaCoverService|Downloading Banner for [121361][Game of Thrones] https://artworks.thetvdb.com/banners/graphical/121361-g19.jpg
-21-3-6 08:03:31.1|Warn|MediaCoverMapper|File /config/MediaCover/15/poster.jpg not found
-21-3-6 08:03:31.2|Info|MediaCoverService|Downloading Poster for [121361][Game of Thrones] https://artworks.thetvdb.com/banners/posters/121361-4.jpg
-21-3-6 08:03:31.3|Info|MediaCoverService|Downloading Fanart for [121361][Game of Thrones] https://artworks.thetvdb.com/banners/fanart/original/121361-19.jpg
-21-3-6 08:03:31.5|Info|MetadataService|Series folder does not exist, skipping metadata creation
-21-3-6 08:06:37.1|Info|RssSyncService|Starting RSS Sync
-21-3-6 08:06:41.5|Info|DownloadDecisionMaker|Processing 189 releases
-21-3-6 08:06:41.8|Info|RssSyncService|RSS Sync Completed. Reports found: 189, Reports grabbed: 0
-21-3-6 08:22:07.7|Info|RssSyncService|Starting RSS Sync
-21-3-6 08:22:09.4|Info|DownloadDecisionMaker|Processing 189 releases
-21-3-6 08:22:09.7|Info|RssSyncService|RSS Sync Completed. Reports found: 189, Reports grabbed: 0
-21-3-6 08:37:38.4|Info|RssSyncService|Starting RSS Sync
-21-3-6 08:37:42.8|Info|DownloadDecisionMaker|Processing 193 releases
-21-3-6 08:37:43.1|Info|RssSyncService|RSS Sync Completed. Reports found: 193, Reports grabbed: 0
-21-3-6 08:53:09.1|Info|RssSyncService|Starting RSS Sync
-21-3-6 08:53:10.6|Info|DownloadDecisionMaker|Processing 191 releases
-21-3-6 08:53:10.9|Info|RssSyncService|RSS Sync Completed. Reports found: 191, Reports grabbed: 0
-21-3-6 09:08:39.6|Info|RssSyncService|Starting RSS Sync
-21-3-6 09:08:42.4|Info|DownloadDecisionMaker|Processing 187 releases
-21-3-6 09:08:42.7|Info|RssSyncService|RSS Sync Completed. Reports found: 187, Reports grabbed: 0
-21-3-6 09:24:10.5|Info|RssSyncService|Starting RSS Sync
-21-3-6 09:24:11.1|Info|DownloadDecisionMaker|Processing 187 releases
-21-3-6 09:24:11.4|Info|RssSyncService|RSS Sync Completed. Reports found: 187, Reports grabbed: 0
-21-3-6 09:39:41.0|Info|RssSyncService|Starting RSS Sync
-21-3-6 09:39:44.1|Info|DownloadDecisionMaker|Processing 188 releases
-21-3-6 09:39:44.4|Info|RssSyncService|RSS Sync Completed. Reports found: 188, Reports grabbed: 0
-21-3-6 09:49:41.6|Info|SceneMappingService|Updating Scene mappings
-21-3-6 09:55:11.8|Info|RssSyncService|Starting RSS Sync
-21-3-6 09:55:13.0|Info|DownloadDecisionMaker|Processing 187 releases
-21-3-6 09:55:13.3|Info|RssSyncService|RSS Sync Completed. Reports found: 187, Reports grabbed: 0
-21-3-6 10:10:42.4|Info|RssSyncService|Starting RSS Sync
-21-3-6 10:10:43.9|Info|DownloadDecisionMaker|Processing 192 releases
-21-3-6 10:10:44.2|Info|RssSyncService|RSS Sync Completed. Reports found: 192, Reports grabbed: 0
-21-3-6 10:26:13.3|Info|RssSyncService|Starting RSS Sync
-21-3-6 10:26:14.9|Info|DownloadDecisionMaker|Processing 191 releases
-21-3-6 10:26:15.2|Info|RssSyncService|RSS Sync Completed. Reports found: 191, Reports grabbed: 0
-21-3-6 10:41:44.1|Info|RssSyncService|Starting RSS Sync
-21-3-6 10:41:46.2|Info|DownloadDecisionMaker|Processing 193 releases
-21-3-6 10:41:46.5|Info|RssSyncService|RSS Sync Completed. Reports found: 193, Reports grabbed: 0
-21-3-6 10:57:14.5|Info|RssSyncService|Starting RSS Sync
-21-3-6 10:57:16.5|Info|DownloadDecisionMaker|Processing 196 releases
-21-3-6 10:57:16.7|Info|RssSyncService|RSS Sync Completed. Reports found: 196, Reports grabbed: 0
-21-3-6 11:12:45.4|Info|RssSyncService|Starting RSS Sync
-21-3-6 11:12:47.6|Info|DownloadDecisionMaker|Processing 192 releases
-21-3-6 11:12:47.9|Info|RssSyncService|RSS Sync Completed. Reports found: 192, Reports grabbed: 0
-21-3-6 11:28:16.0|Info|RssSyncService|Starting RSS Sync
-21-3-6 11:28:17.9|Info|DownloadDecisionMaker|Processing 186 releases
-21-3-6 11:28:18.2|Info|RssSyncService|RSS Sync Completed. Reports found: 186, Reports grabbed: 0
-21-3-6 11:43:46.7|Info|RssSyncService|Starting RSS Sync
-21-3-6 11:43:47.7|Info|DownloadDecisionMaker|Processing 184 releases
-21-3-6 11:43:48.0|Info|RssSyncService|RSS Sync Completed. Reports found: 184, Reports grabbed: 0
-21-3-6 11:59:17.2|Info|RssSyncService|Starting RSS Sync
-21-3-6 11:59:18.1|Info|DownloadDecisionMaker|Processing 183 releases
-21-3-6 11:59:18.4|Info|RssSyncService|RSS Sync Completed. Reports found: 183, Reports grabbed: 0
-21-3-6 12:14:47.8|Info|RssSyncService|Starting RSS Sync
-21-3-6 12:14:48.4|Info|DownloadDecisionMaker|Processing 182 releases
-21-3-6 12:14:48.6|Info|RssSyncService|RSS Sync Completed. Reports found: 182, Reports grabbed: 0
-21-3-6 12:30:18.4|Info|RssSyncService|Starting RSS Sync
-21-3-6 12:30:21.8|Info|DownloadDecisionMaker|Processing 187 releases
-21-3-6 12:30:22.1|Info|RssSyncService|RSS Sync Completed. Reports found: 187, Reports grabbed: 0
-21-3-6 12:45:49.0|Info|RssSyncService|Starting RSS Sync
-21-3-6 12:45:49.6|Info|DownloadDecisionMaker|Processing 180 releases
-21-3-6 12:45:49.9|Info|RssSyncService|RSS Sync Completed. Reports found: 180, Reports grabbed: 0
-21-3-6 12:49:49.3|Info|SceneMappingService|Updating Scene mappings
-21-3-6 13:01:19.9|Info|RssSyncService|Starting RSS Sync
-21-3-6 13:01:22.3|Info|DownloadDecisionMaker|Processing 180 releases
-21-3-6 13:01:22.6|Info|RssSyncService|RSS Sync Completed. Reports found: 180, Reports grabbed: 0
-21-3-6 13:16:50.5|Info|RssSyncService|Starting RSS Sync
-21-3-6 13:16:52.6|Info|DownloadDecisionMaker|Processing 180 releases
-21-3-6 13:16:52.8|Info|RssSyncService|RSS Sync Completed. Reports found: 180, Reports grabbed: 0
-21-3-6 13:32:21.3|Info|RssSyncService|Starting RSS Sync
-21-3-6 13:32:24.4|Info|DownloadDecisionMaker|Processing 181 releases
-21-3-6 13:32:24.6|Info|RssSyncService|RSS Sync Completed. Reports found: 181, Reports grabbed: 0
-21-3-6 13:47:51.8|Info|RssSyncService|Starting RSS Sync
-21-3-6 13:47:52.4|Info|DownloadDecisionMaker|Processing 189 releases
-21-3-6 13:47:52.7|Info|RssSyncService|RSS Sync Completed. Reports found: 189, Reports grabbed: 0
+21-3-28 21:01:44.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:44.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:44.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:44.6|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:45.0|Info|RefreshSeriesService|Updating Info for The Amazing Race
+21-3-28 21:01:45.4|Info|RefreshEpisodeService|Starting episode info refresh for: [77666][The Amazing Race]
+21-3-28 21:01:45.6|Info|RefreshEpisodeService|Finished episode refresh for series: [77666][The Amazing Race].
+21-3-28 21:01:45.6|Info|DiskScanService|Scanning disk for The Amazing Race
+21-3-28 21:01:45.7|Info|DiskScanService|Completed scanning disk for The Amazing Race
+21-3-28 21:01:45.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:45.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:45.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:45.7|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:45.7|Info|RefreshSeriesService|Updating Info for The Daily Show
+21-3-28 21:01:46.0|Info|RefreshEpisodeService|Starting episode info refresh for: [71256][The Daily Show]
+21-3-28 21:01:47.7|Info|RefreshEpisodeService|Finished episode refresh for series: [71256][The Daily Show].
+21-3-28 21:01:47.7|Info|DiskScanService|Scanning disk for The Daily Show
+21-3-28 21:01:47.9|Info|DiskScanService|Completed scanning disk for The Daily Show
+21-3-28 21:01:47.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:47.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:47.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:47.9|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:47.9|Info|RefreshSeriesService|Skipping refresh of series: Devs
+21-3-28 21:01:47.9|Info|DiskScanService|Scanning disk for Devs
+21-3-28 21:01:47.9|Info|DiskScanService|Completed scanning disk for Devs
+21-3-28 21:01:47.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:47.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:47.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:47.9|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:47.9|Info|RefreshSeriesService|Updating Info for Full Frontal with Samantha Bee
+21-3-28 21:01:48.0|Info|RefreshEpisodeService|Starting episode info refresh for: [303438][Full Frontal with Samantha Bee]
+21-3-28 21:01:48.2|Info|RefreshEpisodeService|Finished episode refresh for series: [303438][Full Frontal with Samantha Bee].
+21-3-28 21:01:48.2|Info|DiskScanService|Scanning disk for Full Frontal with Samantha Bee
+21-3-28 21:01:48.2|Info|DiskScanService|Completed scanning disk for Full Frontal with Samantha Bee
+21-3-28 21:01:48.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:48.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:48.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:48.2|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:48.2|Info|RefreshSeriesService|Skipping refresh of series: The Good Lord Bird
+21-3-28 21:01:48.2|Info|DiskScanService|Scanning disk for The Good Lord Bird
+21-3-28 21:01:48.3|Info|DiskScanService|Completed scanning disk for The Good Lord Bird
+21-3-28 21:01:48.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:48.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:48.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:48.3|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:48.3|Info|RefreshSeriesService|Updating Info for Hell's Kitchen (US)
+21-3-28 21:01:48.5|Info|RefreshEpisodeService|Starting episode info refresh for: [74897][Hell's Kitchen (US)]
+21-3-28 21:01:48.6|Info|RefreshEpisodeService|Finished episode refresh for series: [74897][Hell's Kitchen (US)].
+21-3-28 21:01:48.6|Info|DiskScanService|Scanning disk for Hell's Kitchen (US)
+21-3-28 21:01:48.7|Info|DiskScanService|Completed scanning disk for Hell's Kitchen (US)
+21-3-28 21:01:48.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:48.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:48.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:48.7|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:48.7|Info|RefreshSeriesService|Updating Info for Last Week Tonight with John Oliver
+21-3-28 21:01:48.8|Info|RefreshEpisodeService|Starting episode info refresh for: [278518][Last Week Tonight with John Oliver]
+21-3-28 21:01:48.9|Info|RefreshEpisodeService|Finished episode refresh for series: [278518][Last Week Tonight with John Oliver].
+21-3-28 21:01:48.9|Info|DiskScanService|Scanning disk for Last Week Tonight with John Oliver
+21-3-28 21:01:48.9|Info|DiskScanService|Completed scanning disk for Last Week Tonight with John Oliver
+21-3-28 21:01:48.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:49.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:49.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:49.0|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:49.0|Info|RefreshSeriesService|Updating Info for The Mandalorian
+21-3-28 21:01:49.1|Info|RefreshEpisodeService|Starting episode info refresh for: [361753][The Mandalorian]
+21-3-28 21:01:49.1|Info|RefreshEpisodeService|Finished episode refresh for series: [361753][The Mandalorian].
+21-3-28 21:01:49.1|Info|DiskScanService|Scanning disk for The Mandalorian
+21-3-28 21:01:49.1|Info|DiskScanService|Completed scanning disk for The Mandalorian
+21-3-28 21:01:49.1|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:49.1|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:49.1|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:49.1|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:49.1|Info|RefreshSeriesService|Updating Info for Raised by Wolves (2020)
+21-3-28 21:01:49.4|Info|RefreshEpisodeService|Starting episode info refresh for: [368643][Raised by Wolves (2020)]
+21-3-28 21:01:49.4|Info|RefreshEpisodeService|Finished episode refresh for series: [368643][Raised by Wolves (2020)].
+21-3-28 21:01:49.4|Info|DiskScanService|Scanning disk for Raised by Wolves (2020)
+21-3-28 21:01:49.5|Info|DiskScanService|Completed scanning disk for Raised by Wolves (2020)
+21-3-28 21:01:49.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:49.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:49.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:49.5|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:49.5|Info|RefreshSeriesService|Skipping refresh of series: Schitt's Creek
+21-3-28 21:01:49.5|Info|DiskScanService|Scanning disk for Schitt's Creek
+21-3-28 21:01:49.5|Info|DiskScanService|Completed scanning disk for Schitt's Creek
+21-3-28 21:01:49.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:49.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:49.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:49.6|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:49.6|Info|RefreshSeriesService|Updating Info for Survivor
+21-3-28 21:01:49.7|Info|RefreshEpisodeService|Starting episode info refresh for: [76733][Survivor]
+21-3-28 21:01:50.0|Info|RefreshEpisodeService|Finished episode refresh for series: [76733][Survivor].
+21-3-28 21:01:50.0|Info|DiskScanService|Scanning disk for Survivor
+21-3-28 21:01:50.1|Info|DiskScanService|Completed scanning disk for Survivor
+21-3-28 21:01:50.1|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:50.1|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:50.1|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:50.1|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:50.1|Info|RefreshSeriesService|Updating Info for WandaVision
+21-3-28 21:01:50.3|Info|RefreshEpisodeService|Starting episode info refresh for: [362392][WandaVision]
+21-3-28 21:01:50.3|Info|RefreshEpisodeService|Finished episode refresh for series: [362392][WandaVision].
+21-3-28 21:01:50.3|Info|DiskScanService|Scanning disk for WandaVision
+21-3-28 21:01:50.3|Info|DiskScanService|Completed scanning disk for WandaVision
+21-3-28 21:01:50.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:50.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:50.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:50.3|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:01:50.4|Info|RefreshSeriesService|Updating Info for What We Do in the Shadows
+21-3-28 21:01:50.5|Info|RefreshEpisodeService|Starting episode info refresh for: [358211][What We Do in the Shadows]
+21-3-28 21:01:50.5|Info|RefreshEpisodeService|Finished episode refresh for series: [358211][What We Do in the Shadows].
+21-3-28 21:01:50.5|Info|DiskScanService|Scanning disk for What We Do in the Shadows
+21-3-28 21:01:50.5|Info|DiskScanService|Completed scanning disk for What We Do in the Shadows
+21-3-28 21:01:50.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-28 21:01:50.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-28 21:01:50.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-28 21:01:50.5|Info|ExistingExtraFileService|Found 0 extra files
+21-3-28 21:07:14.4|Info|RssSyncService|Starting RSS Sync
+21-3-28 21:07:17.6|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-28 21:07:17.9|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-28 21:22:45.0|Info|RssSyncService|Starting RSS Sync
+21-3-28 21:22:47.4|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-28 21:22:47.7|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-28 21:38:15.6|Info|RssSyncService|Starting RSS Sync
+21-3-28 21:38:19.7|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-28 21:38:20.0|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-28 21:53:46.0|Info|RssSyncService|Starting RSS Sync
+21-3-28 21:53:48.6|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-28 21:53:49.0|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-28 22:09:16.5|Info|RssSyncService|Starting RSS Sync
+21-3-28 22:09:20.6|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-28 22:09:21.0|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-28 22:24:47.0|Info|RssSyncService|Starting RSS Sync
+21-3-28 22:24:51.4|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-28 22:24:51.7|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-28 22:40:17.6|Info|RssSyncService|Starting RSS Sync
+21-3-28 22:40:20.6|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-28 22:40:20.9|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-28 22:53:48.3|Info|HousekeepingService|Running housecleaning tasks
+21-3-28 22:53:48.3|Info|Database|Vacuuming Log database
+21-3-28 22:53:48.3|Info|Database|Log database compressed
+21-3-28 22:53:48.4|Info|Database|Vacuuming Main database
+21-3-28 22:53:48.5|Info|Database|Main database compressed
+21-3-28 22:55:48.3|Info|RssSyncService|Starting RSS Sync
+21-3-28 22:55:52.0|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-28 22:55:52.3|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-28 23:11:19.0|Info|RssSyncService|Starting RSS Sync
+21-3-28 23:11:21.1|Info|DownloadDecisionMaker|Processing 100 releases
+21-3-28 23:11:21.3|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+21-3-28 23:11:49.2|Info|SceneMappingService|Updating Scene mappings
+21-3-28 23:26:49.7|Info|RssSyncService|Starting RSS Sync
+21-3-28 23:26:56.6|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-28 23:26:57.0|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-28 23:42:20.5|Info|RssSyncService|Starting RSS Sync
+21-3-28 23:42:24.6|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-28 23:42:24.9|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-28 23:57:51.1|Info|RssSyncService|Starting RSS Sync
+21-3-28 23:57:54.0|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-28 23:57:54.3|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 00:13:21.7|Info|RssSyncService|Starting RSS Sync
+21-3-29 00:13:22.5|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 00:13:22.9|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 00:28:52.1|Info|RssSyncService|Starting RSS Sync
+21-3-29 00:28:55.0|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 00:28:55.4|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 00:44:22.7|Info|RssSyncService|Starting RSS Sync
+21-3-29 00:44:24.1|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 00:44:24.5|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 00:59:53.5|Info|RssSyncService|Starting RSS Sync
+21-3-29 00:59:55.7|Info|DownloadDecisionMaker|Processing 100 releases
+21-3-29 00:59:55.9|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+21-3-29 01:15:23.9|Info|RssSyncService|Starting RSS Sync
+21-3-29 01:15:25.0|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 01:15:25.4|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 01:30:54.6|Info|RssSyncService|Starting RSS Sync
+21-3-29 01:30:57.0|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 01:30:57.3|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 01:46:25.4|Info|RssSyncService|Starting RSS Sync
+21-3-29 01:46:26.9|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 01:46:27.2|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 02:01:56.0|Info|RssSyncService|Starting RSS Sync
+21-3-29 02:01:56.7|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 02:01:57.0|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 02:11:56.4|Info|SceneMappingService|Updating Scene mappings
+21-3-29 02:17:26.6|Info|RssSyncService|Starting RSS Sync
+21-3-29 02:17:28.7|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 02:17:29.1|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 02:32:57.3|Info|RssSyncService|Starting RSS Sync
+21-3-29 02:32:59.2|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 02:32:59.5|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 02:48:27.8|Info|RssSyncService|Starting RSS Sync
+21-3-29 02:48:32.9|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 02:48:33.2|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 03:03:58.4|Info|RssSyncService|Starting RSS Sync
+21-3-29 03:04:02.8|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 03:04:03.2|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 03:19:29.0|Info|RssSyncService|Starting RSS Sync
+21-3-29 03:19:32.9|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 03:19:34.7|Info|Nzbget|Adding report [WandaVision.S01E03.Now.in.Color.1080p.DSNP.WEBRip.x265-ZiTO] to the queue.
+21-3-29 03:19:34.8|Info|DownloadService|Report sent to NZBGet. WandaVision.S01E03.Now.in.Color.1080p.DSNP.WEBRip.x265-ZiTO
+21-3-29 03:19:37.4|Info|Nzbget|Adding report [WandaVision.S01E04.We.Interrupt.This.Program.1080p.DSNP.WEBRip.x265-ZiTO] to the queue.
+21-3-29 03:19:37.5|Info|DownloadService|Report sent to NZBGet. WandaVision.S01E04.We.Interrupt.This.Program.1080p.DSNP.WEBRip.x265-ZiTO
+21-3-29 03:19:38.3|Info|Nzbget|Adding report [WandaVision.S01E05.On.a.Very.Special.Episode.1080p.DSNP.WEBRip.x265-ZiTO] to the queue.
+21-3-29 03:19:38.4|Info|DownloadService|Report sent to NZBGet. WandaVision.S01E05.On.a.Very.Special.Episode.1080p.DSNP.WEBRip.x265-ZiTO
+21-3-29 03:19:40.3|Info|Nzbget|Adding report [WandaVision.S01E06.All-New.Halloween.Spooktacular.1080p.DSNP.WEBRip.x265-ZiTO] to the queue.
+21-3-29 03:19:41.2|Info|DownloadService|Report sent to NZBGet. WandaVision.S01E06.All-New.Halloween.Spooktacular.1080p.DSNP.WEBRip.x265-ZiTO
+21-3-29 03:19:43.5|Info|Nzbget|Adding report [WandaVision.S01E07.Breaking.the.Fourth.Wall.1080p.DSNP.WEBRip.x265-ZiTO] to the queue.
+21-3-29 03:19:43.6|Info|DownloadService|Report sent to NZBGet. WandaVision.S01E07.Breaking.the.Fourth.Wall.1080p.DSNP.WEBRip.x265-ZiTO
+21-3-29 03:19:43.8|Info|Nzbget|Adding report [WandaVision.S01E08.Previously.On.1080p.DSNP.WEBRip.x265-ZiTO] to the queue.
+21-3-29 03:19:44.0|Info|DownloadService|Report sent to NZBGet. WandaVision.S01E08.Previously.On.1080p.DSNP.WEBRip.x265-ZiTO
+21-3-29 03:19:46.0|Info|Nzbget|Adding report [WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEBRip.x265-ZiTO] to the queue.
+21-3-29 03:19:46.1|Info|DownloadService|Report sent to NZBGet. WandaVision.S01E09.The.Series.Finale.1080p.DSNP.WEBRip.x265-ZiTO
+21-3-29 03:19:46.1|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 7
+21-3-29 03:34:59.6|Info|RssSyncService|Starting RSS Sync
+21-3-29 03:35:02.9|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 03:35:03.3|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 03:50:30.3|Info|RssSyncService|Starting RSS Sync
+21-3-29 03:50:33.4|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 03:50:33.8|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 04:06:00.9|Info|RssSyncService|Starting RSS Sync
+21-3-29 04:06:03.8|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 04:06:04.1|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 04:21:31.5|Info|RssSyncService|Starting RSS Sync
+21-3-29 04:21:33.0|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 04:21:33.4|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 04:37:02.0|Info|RssSyncService|Starting RSS Sync
+21-3-29 04:37:05.9|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 04:37:06.2|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 04:52:32.6|Info|RssSyncService|Starting RSS Sync
+21-3-29 04:52:34.4|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 04:52:34.7|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 05:08:03.2|Info|RssSyncService|Starting RSS Sync
+21-3-29 05:08:04.1|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 05:08:04.4|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 05:12:03.5|Info|SceneMappingService|Updating Scene mappings
+21-3-29 05:23:34.0|Info|RssSyncService|Starting RSS Sync
+21-3-29 05:23:36.3|Info|DownloadDecisionMaker|Processing 100 releases
+21-3-29 05:23:36.5|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+21-3-29 05:39:04.7|Info|RssSyncService|Starting RSS Sync
+21-3-29 05:39:06.3|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 05:39:06.6|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 05:54:35.3|Info|RssSyncService|Starting RSS Sync
+21-3-29 05:54:37.1|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 05:54:37.4|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 06:10:05.8|Info|RssSyncService|Starting RSS Sync
+21-3-29 06:10:10.3|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 06:10:10.6|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 06:25:36.4|Info|RssSyncService|Starting RSS Sync
+21-3-29 06:25:41.1|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 06:25:41.4|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 06:41:07.0|Info|RssSyncService|Starting RSS Sync
+21-3-29 06:41:07.8|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 06:41:08.1|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 06:56:37.5|Info|RssSyncService|Starting RSS Sync
+21-3-29 06:56:38.0|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 06:56:38.3|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 07:12:08.1|Info|RssSyncService|Starting RSS Sync
+21-3-29 07:12:09.5|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 07:12:09.8|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 07:27:38.7|Info|RssSyncService|Starting RSS Sync
+21-3-29 07:27:43.2|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 07:27:43.6|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 07:43:09.4|Info|RssSyncService|Starting RSS Sync
+21-3-29 07:43:12.4|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 07:43:12.8|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 07:58:40.0|Info|RssSyncService|Starting RSS Sync
+21-3-29 07:58:44.0|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 07:58:44.4|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 08:12:10.8|Info|SceneMappingService|Updating Scene mappings
+21-3-29 08:14:10.9|Info|RssSyncService|Starting RSS Sync
+21-3-29 08:14:12.0|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 08:14:12.4|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 08:29:41.6|Info|RssSyncService|Starting RSS Sync
+21-3-29 08:29:45.5|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 08:29:45.9|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 08:45:12.1|Info|RssSyncService|Starting RSS Sync
+21-3-29 08:45:13.6|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 08:45:14.0|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 09:00:43.0|Info|RssSyncService|Starting RSS Sync
+21-3-29 09:00:51.4|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 09:00:51.7|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 09:02:13.1|Info|RefreshSeriesService|Updating Info for Alone
+21-3-29 09:02:13.4|Info|RefreshEpisodeService|Starting episode info refresh for: [295936][Alone]
+21-3-29 09:02:13.4|Info|RefreshEpisodeService|Finished episode refresh for series: [295936][Alone].
+21-3-29 09:02:13.4|Info|DiskScanService|Scanning disk for Alone
+21-3-29 09:02:13.4|Info|DiskScanService|Completed scanning disk for Alone
+21-3-29 09:02:13.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:13.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:13.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:13.4|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:13.9|Info|RefreshSeriesService|Updating Info for The Amazing Race
+21-3-29 09:02:14.0|Info|RefreshEpisodeService|Starting episode info refresh for: [77666][The Amazing Race]
+21-3-29 09:02:14.2|Info|RefreshEpisodeService|Finished episode refresh for series: [77666][The Amazing Race].
+21-3-29 09:02:14.2|Info|DiskScanService|Scanning disk for The Amazing Race
+21-3-29 09:02:14.2|Info|DiskScanService|Completed scanning disk for The Amazing Race
+21-3-29 09:02:14.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:14.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:14.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:14.2|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:14.3|Info|RefreshSeriesService|Updating Info for The Daily Show
+21-3-29 09:02:14.6|Info|RefreshEpisodeService|Starting episode info refresh for: [71256][The Daily Show]
+21-3-29 09:02:16.3|Info|RefreshEpisodeService|Finished episode refresh for series: [71256][The Daily Show].
+21-3-29 09:02:16.3|Info|DiskScanService|Scanning disk for The Daily Show
+21-3-29 09:02:16.5|Info|DiskScanService|Completed scanning disk for The Daily Show
+21-3-29 09:02:16.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:16.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:16.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:16.5|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:16.5|Info|RefreshSeriesService|Skipping refresh of series: Devs
+21-3-29 09:02:16.5|Info|DiskScanService|Scanning disk for Devs
+21-3-29 09:02:16.5|Info|DiskScanService|Completed scanning disk for Devs
+21-3-29 09:02:16.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:16.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:16.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:16.5|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:16.5|Info|RefreshSeriesService|Updating Info for Full Frontal with Samantha Bee
+21-3-29 09:02:16.6|Info|RefreshEpisodeService|Starting episode info refresh for: [303438][Full Frontal with Samantha Bee]
+21-3-29 09:02:16.8|Info|RefreshEpisodeService|Finished episode refresh for series: [303438][Full Frontal with Samantha Bee].
+21-3-29 09:02:16.8|Info|DiskScanService|Scanning disk for Full Frontal with Samantha Bee
+21-3-29 09:02:16.9|Info|DiskScanService|Completed scanning disk for Full Frontal with Samantha Bee
+21-3-29 09:02:16.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:16.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:16.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:16.9|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:16.9|Info|RefreshSeriesService|Skipping refresh of series: The Good Lord Bird
+21-3-29 09:02:16.9|Info|DiskScanService|Scanning disk for The Good Lord Bird
+21-3-29 09:02:16.9|Info|DiskScanService|Completed scanning disk for The Good Lord Bird
+21-3-29 09:02:16.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:16.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:16.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:16.9|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:16.9|Info|RefreshSeriesService|Updating Info for Hell's Kitchen (US)
+21-3-29 09:02:17.0|Info|RefreshEpisodeService|Starting episode info refresh for: [74897][Hell's Kitchen (US)]
+21-3-29 09:02:17.1|Info|RefreshEpisodeService|Finished episode refresh for series: [74897][Hell's Kitchen (US)].
+21-3-29 09:02:17.1|Info|DiskScanService|Scanning disk for Hell's Kitchen (US)
+21-3-29 09:02:17.1|Info|DiskScanService|Completed scanning disk for Hell's Kitchen (US)
+21-3-29 09:02:17.1|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:17.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:17.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:17.2|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:17.2|Info|RefreshSeriesService|Updating Info for Last Week Tonight with John Oliver
+21-3-29 09:02:17.3|Info|RefreshEpisodeService|Starting episode info refresh for: [278518][Last Week Tonight with John Oliver]
+21-3-29 09:02:17.4|Info|RefreshEpisodeService|Finished episode refresh for series: [278518][Last Week Tonight with John Oliver].
+21-3-29 09:02:17.4|Info|DiskScanService|Scanning disk for Last Week Tonight with John Oliver
+21-3-29 09:02:17.4|Info|DiskScanService|Completed scanning disk for Last Week Tonight with John Oliver
+21-3-29 09:02:17.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:17.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:17.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:17.4|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:17.4|Info|RefreshSeriesService|Updating Info for The Mandalorian
+21-3-29 09:02:17.5|Info|RefreshEpisodeService|Starting episode info refresh for: [361753][The Mandalorian]
+21-3-29 09:02:17.5|Info|RefreshEpisodeService|Finished episode refresh for series: [361753][The Mandalorian].
+21-3-29 09:02:17.5|Info|DiskScanService|Scanning disk for The Mandalorian
+21-3-29 09:02:17.5|Info|DiskScanService|Completed scanning disk for The Mandalorian
+21-3-29 09:02:17.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:17.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:17.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:17.5|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:17.5|Info|RefreshSeriesService|Updating Info for Raised by Wolves (2020)
+21-3-29 09:02:17.6|Info|RefreshEpisodeService|Starting episode info refresh for: [368643][Raised by Wolves (2020)]
+21-3-29 09:02:17.6|Info|RefreshEpisodeService|Finished episode refresh for series: [368643][Raised by Wolves (2020)].
+21-3-29 09:02:17.6|Info|DiskScanService|Scanning disk for Raised by Wolves (2020)
+21-3-29 09:02:17.6|Info|DiskScanService|Completed scanning disk for Raised by Wolves (2020)
+21-3-29 09:02:17.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:17.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:17.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:17.6|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:17.7|Info|RefreshSeriesService|Skipping refresh of series: Schitt's Creek
+21-3-29 09:02:17.7|Info|DiskScanService|Scanning disk for Schitt's Creek
+21-3-29 09:02:17.7|Info|DiskScanService|Completed scanning disk for Schitt's Creek
+21-3-29 09:02:17.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:17.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:17.8|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:17.8|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:17.8|Info|RefreshSeriesService|Updating Info for Survivor
+21-3-29 09:02:17.9|Info|RefreshEpisodeService|Starting episode info refresh for: [76733][Survivor]
+21-3-29 09:02:18.2|Info|RefreshEpisodeService|Finished episode refresh for series: [76733][Survivor].
+21-3-29 09:02:18.2|Info|DiskScanService|Scanning disk for Survivor
+21-3-29 09:02:18.3|Info|DiskScanService|Completed scanning disk for Survivor
+21-3-29 09:02:18.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:18.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:18.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:18.3|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:18.3|Info|RefreshSeriesService|Updating Info for WandaVision
+21-3-29 09:02:18.3|Info|RefreshEpisodeService|Starting episode info refresh for: [362392][WandaVision]
+21-3-29 09:02:18.4|Info|RefreshEpisodeService|Finished episode refresh for series: [362392][WandaVision].
+21-3-29 09:02:18.4|Info|DiskScanService|Scanning disk for WandaVision
+21-3-29 09:02:18.4|Info|DiskScanService|Completed scanning disk for WandaVision
+21-3-29 09:02:18.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:18.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:18.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:18.4|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:02:18.4|Info|RefreshSeriesService|Updating Info for What We Do in the Shadows
+21-3-29 09:02:18.5|Info|RefreshEpisodeService|Starting episode info refresh for: [358211][What We Do in the Shadows]
+21-3-29 09:02:18.5|Info|RefreshEpisodeService|Finished episode refresh for series: [358211][What We Do in the Shadows].
+21-3-29 09:02:18.5|Info|DiskScanService|Scanning disk for What We Do in the Shadows
+21-3-29 09:02:18.5|Info|DiskScanService|Completed scanning disk for What We Do in the Shadows
+21-3-29 09:02:18.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-3-29 09:02:18.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-3-29 09:02:18.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-3-29 09:02:18.5|Info|ExistingExtraFileService|Found 0 extra files
+21-3-29 09:16:13.7|Info|RssSyncService|Starting RSS Sync
+21-3-29 09:16:15.1|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 09:16:15.4|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+21-3-29 09:31:44.3|Info|RssSyncService|Starting RSS Sync
+21-3-29 09:31:46.8|Info|DownloadDecisionMaker|Processing 200 releases
+21-3-29 09:31:47.2|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
