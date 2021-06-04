@@ -1,3 +1,8 @@
 config/radarr/radarr.db
 *.db-shm
 *.db-wal
+cache
+log
+logs*
+MediaCover
+Backups
