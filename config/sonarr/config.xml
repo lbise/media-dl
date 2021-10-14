@@ -7,8 +7,8 @@
   <EnableSsl>False</EnableSsl>
   <ApiKey>10389185f0fc4270849c997e3a813ee2</ApiKey>
   <AuthenticationMethod>None</AuthenticationMethod>
-  <Branch>master</Branch>
+  <Branch>main</Branch>
   <LaunchBrowser>True</LaunchBrowser>
   <SslCertHash></SslCertHash>
-  <UpdateMechanism>BuiltIn</UpdateMechanism>
+  <UpdateMechanism>Docker</UpdateMechanism>
 </Config>
