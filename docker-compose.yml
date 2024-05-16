@@ -10,8 +10,8 @@ services:
       - TZ=${TZ} # timezone, defined in .env
       - UMASK_SET=002 # Folder 775 (drwxrwxr-x) Files 664 (-rw-rw-r--)
     volumes:
-      - ${CFG}/config/nzbget:/config # config files
-      - ${DL}:/downloads # download folder
+      - /mnt/storage/media-dl/config/nzbget:/config # config files
+      - /mnt/storage/downloads:/data/downloads # download folder
 
   sonarr:
     container_name: sonarr
@@ -25,8 +25,8 @@ services:
       - UMASK_SET=002 # Folder 775 (drwxrwxr-x) Files 664 (-rw-rw-r--)
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - ${CFG}/config/sonarr:/config # config files
-      - ${DATA}:/data
+      - /mnt/storage/media-dl/config/sonarr:/config # config files
+      - /mnt/storage:/data
 
   radarr:
     container_name: radarr
@@ -40,8 +40,8 @@ services:
       - UMASK_SET=002 # Folder 775 (drwxrwxr-x) Files 664 (-rw-rw-r--)
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - ${CFG}/config/radarr:/config # config files
-      - ${DATA}:/data
+      - /mnt/storage/media-dl/config/radarr:/config # config files
+      - /mnt/storage:/data
 
   bazarr:
     container_name: bazarr
@@ -54,5 +54,5 @@ services:
       - TZ=${TZ} # timezone, defined in .env
       - UMASK_SET=002 # Folder 775 (drwxrwxr-x) Files 664 (-rw-rw-r--)
     volumes:
-      - ${CFG}/config/bazarr:/config # config files
-      - ${DATA}:/data
+      - /mnt/storage/media-dl/config/bazarr:/config # config files
+      - /mnt/storage:/data
