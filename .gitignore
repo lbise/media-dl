@@ -8,3 +8,9 @@ log
 logs*
 MediaCover
 Backups
+releases.txt
+analytics_visitor_id.txt
+announcements.json
+Sentry
+asp
+db

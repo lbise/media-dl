@@ -56,3 +56,31 @@ services:
     volumes:
       - /mnt/storage/media-dl/config/bazarr:/config # config files
       - /mnt/storage:/data
+
+  overseerr:
+      image: sctx/overseerr:latest
+      container_name: overseerr
+      environment:
+        - LOG_LEVEL=debug
+        - TZ=${TZ} # timezone, defined in .env
+        - PORT=5055 #optional
+      ports:
+        - 5055:5055
+      volumes:
+        - /mnt/storage/media-dl/config/overseerr:/app/config
+      restart: unless-stopped
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=${PLEXPUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+      - VERSION=docker
+      - PLEX_CLAIM= #optional
+    volumes:
+      - /mnt/storage/media-dl/config/plex:/config
+      - /mnt/storage/media/tv:/tv
+      - /mnt/storage/media/movies:/movies
+    restart: unless-stopped
