@@ -84,3 +84,22 @@ services:
       - /mnt/storage/media/tv:/tv
       - /mnt/storage/media/movies:/movies
     restart: unless-stopped
+  homarr:
+    container_name: homarr
+    image: ghcr.io/ajnart/homarr:latest
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock # Optional, only if you want docker integration
+      - /mnt/storage/media-dl/config/homarr/configs:/app/data/configs
+      - /mnt/storage/media-dl/config/homarr/icons:/app/public/icons
+      - /mnt/storage/media-dl/config/homarr/data:/data
+    ports:
+      - '7575:7575'
+  dash:
+    image: mauricenino/dashdot:latest
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - '80:3001'
+    volumes:
+      - /:/mnt/host:ro
