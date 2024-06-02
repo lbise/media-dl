@@ -23,17 +23,78 @@
   "locale": "en"
  },
  "plex": {
-  "name": "",
-  "ip": "",
+  "name": "leo-srv",
+  "ip": "192.168.1.11",
   "port": 32400,
   "useSsl": false,
-  "libraries": []
+  "libraries": [
+   {
+    "id": "1",
+    "name": "Movies",
+    "enabled": true,
+    "type": "movie",
+    "lastScan": 1717327500075
+   },
+   {
+    "id": "2",
+    "name": "Series",
+    "enabled": true,
+    "type": "show",
+    "lastScan": 1717327500087
+   }
+  ],
+  "machineId": "70324db166de0de171b60286434091ee7ec5f07b"
  },
  "tautulli": {},
- "radarr": [],
- "sonarr": [],
+ "radarr": [
+  {
+   "name": "radarr",
+   "hostname": "192.168.1.11",
+   "port": 7878,
+   "apiKey": "3264d74fa4c146fa90afa7b0bebbfa79",
+   "useSsl": false,
+   "activeProfileId": 6,
+   "activeProfileName": "HD - 720p/1080p",
+   "activeDirectory": "/data/media/movies",
+   "is4k": false,
+   "minimumAvailability": "released",
+   "tags": [],
+   "isDefault": true,
+   "syncEnabled": false,
+   "preventSearch": false,
+   "tagRequests": false,
+   "id": 0
+  }
+ ],
+ "sonarr": [
+  {
+   "name": "sonarr leo",
+   "hostname": "192.168.1.11",
+   "port": 8989,
+   "apiKey": "10389185f0fc4270849c997e3a813ee2",
+   "useSsl": false,
+   "baseUrl": "",
+   "activeProfileId": 6,
+   "activeLanguageProfileId": 1,
+   "activeProfileName": "HD - 720p/1080p",
+   "activeDirectory": "/data/media/tv",
+   "activeAnimeProfileId": 6,
+   "activeAnimeLanguageProfileId": 1,
+   "activeAnimeProfileName": "HD - 720p/1080p",
+   "activeAnimeDirectory": "/data/media/tv",
+   "tags": [],
+   "animeTags": [],
+   "is4k": false,
+   "isDefault": true,
+   "enableSeasonFolders": false,
+   "syncEnabled": false,
+   "preventSearch": false,
+   "tagRequests": false,
+   "id": 0
+  }
+ ],
  "public": {
-  "initialized": false
+  "initialized": true
  },
  "notifications": {
   "agents": {
