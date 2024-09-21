@@ -55,6 +55,7 @@ general:
   - opensubtitles
   - podnapisi
   - tvsubtitles
+  - opensubtitlescom
   flask_secret_key: 0386858b0bf0030d048aeb8e1dbd8a85
   hi_extension: hi
   ignore_ass_subs: false
@@ -145,9 +146,9 @@ opensubtitles:
   vip: false
 opensubtitlescom:
   include_ai_translated: false
-  password: ''
+  password: leonard
   use_hash: true
-  username: ''
+  username: leodido
 podnapisi:
   verify_ssl: true
 postgresql:

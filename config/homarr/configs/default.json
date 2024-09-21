@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 2,
+  "configProperties": {
+    "name": "default"
+  },
+  "categories": [],
+  "wrappers": [
+    {
+      "id": "default",
+      "position": 0
+    }
+  ],
+  "apps": [
+    {
+      "id": "2688da2a-eb3b-4417-86e3-7a3202a86288",
+      "name": "Bazarr",
+      "url": "http://192.168.1.11:6767",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/bazarr.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://192.168.1.11:6767/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "3af54ab8-a89f-4ec0-a3c3-695bb1091ff5",
+      "name": "Overseerr",
+      "url": "http://192.168.1.11:5055",
+      "appearance": {
+        "iconUrl": "/imgs/logo/logo.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://192.168.1.11:5055/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 6,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "08cf5882-8342-4d2e-b4ad-317f6114bf00",
+      "name": "Sonarr",
+      "url": "http://192.168.1.11:8989",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/sonarr.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://192.168.1.11:8989"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "c71caed4-3f2d-4d36-b1db-98a220684e37",
+      "name": "Radarr",
+      "url": "http://192.168.1.11:7878",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/radarr.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://192.168.1.11:7878/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "3272c6e1-09cd-481e-9122-def829b0d38f",
+      "name": "NZBGet",
+      "url": "http://192.168.1.11:6789",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nzbget.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://192.168.1.11:6789/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "1cfeb601-18cb-407f-891c-82ff3b45f21f",
+      "type": "dlspeed",
+      "properties": {},
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "d7f912ec-5154-4ef9-8e59-2ef7440390fa",
+      "type": "dashdot",
+      "properties": {
+        "dashName": "Dash.",
+        "url": "http://192.168.1.11/",
+        "usePercentages": false,
+        "columns": 2,
+        "graphHeight": 115,
+        "graphsOrder": [
+          {
+            "key": "storage",
+            "subValues": {
+              "enabled": true,
+              "compactView": true,
+              "span": 2,
+              "multiView": false
+            }
+          },
+          {
+            "key": "network",
+            "subValues": {
+              "enabled": true,
+              "compactView": true,
+              "span": 2
+            }
+          },
+          {
+            "key": "cpu",
+            "subValues": {
+              "enabled": true,
+              "multiView": false,
+              "span": 1
+            }
+          },
+          {
+            "key": "ram",
+            "subValues": {
+              "enabled": true,
+              "span": 1
+            }
+          },
+          {
+            "key": "gpu",
+            "subValues": {
+              "enabled": false,
+              "span": 1
+            }
+          }
+        ]
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        }
+      }
+    }
+  ],
+  "settings": {
+    "common": {
+      "searchEngine": {
+        "type": "google",
+        "properties": {}
+      }
+    },
+    "customization": {
+      "layout": {
+        "enabledLeftSidebar": false,
+        "enabledRightSidebar": false,
+        "enabledDocker": false,
+        "enabledPing": false,
+        "enabledSearchbar": true
+      },
+      "pageTitle": "Homarr ⭐️",
+      "logoImageUrl": "/imgs/logo/logo.png",
+      "faviconUrl": "/imgs/favicon/favicon-squared.png",
+      "backgroundImageUrl": "",
+      "customCss": "",
+      "colors": {
+        "primary": "red",
+        "secondary": "yellow",
+        "shade": 7
+      },
+      "appOpacity": 100,
+      "gridstack": {
+        "columnCountSmall": 3,
+        "columnCountMedium": 6,
+        "columnCountLarge": 10
+      }
+    },
+    "access": {
+      "allowGuests": false
+    }
+  }
+}
