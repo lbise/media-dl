@@ -21,16 +21,19 @@ What needs to be done:
         sudo adduser --no-create-home --disabled-login radarr
         sudo adduser --no-create-home --disabled-login nzbget
         sudo adduser --no-create-home --disabled-login bazarr
+        sudo adduser --no-create-home --disabled-login plex
     * Add the users to the group:
         sudo usermod -a -G media sonarr
         sudo usermod -a -G media radarr
         sudo usermod -a -G media nzbget
         sudo usermod -a -G media bazarr
+        sudo usermod -a -G media plex
     * Change primary group:
         sudo usermod -g media sonarr
         sudo usermod -g media radarr
         sudo usermod -g media nzbget
         sudo usermod -g media bazarr
+        sudo usermod -g media plex
     * Update UID/PGID in .env if they do not match
     * Install docker: See https://docs.docker.com/ add their own APT server
     * Add your user to the docker group (so you can run it without sudo)
