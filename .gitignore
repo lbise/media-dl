@@ -14,3 +14,4 @@ announcements.json
 Sentry
 asp
 db
+*.sqlite
