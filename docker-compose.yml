@@ -70,20 +70,20 @@ services:
         - /mnt/storage/media-dl/config/overseerr:/app/config
       restart: unless-stopped
   plex:
-    image: lscr.io/linuxserver/plex:latest
     container_name: plex
-    network_mode: host
+    image: plexinc/pms-docker
+    restart: unless-stopped
     environment:
-      - PUID=${PLEXPUID} # default user id, defined in .env
-      - PGID=${PGID} # default group id, defined in .env
+      - PLEX_UID=${PLEXPUID}
+      - PLEX_GID=${PGID}
       - TZ=${TZ} # timezone, defined in .env
-      - VERSION=docker
-      - PLEX_CLAIM= #optional
+      - PLEX_CLAIM=claim-YqvJ_ZsdGyF6sVMgHm3i
+    network_mode: host
     volumes:
       - /mnt/storage/media-dl/config/plex:/config
-      - /mnt/storage/media/tv:/tv
-      - /mnt/storage/media/movies:/movies
-    restart: unless-stopped
+      - /mnt/storage/transcode:/transcode
+      - /mnt/storage/media:/media
+
   homarr:
     container_name: homarr
     image: ghcr.io/ajnart/homarr:latest
