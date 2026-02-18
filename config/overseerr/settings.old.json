@@ -6,6 +6,7 @@
   "apiKey": "MTcxNTk2NDMwNDkwMjQxMjQyYTdhLTljYjYtNDE2NS1hOGJmLWE5ZjJhOGRlM2VmNA==",
   "applicationTitle": "Seerr",
   "applicationUrl": "",
+  "csrfProtection": false,
   "cacheImages": false,
   "defaultPermissions": 32,
   "defaultQuotas": {
@@ -13,20 +14,14 @@
    "tv": {}
   },
   "hideAvailable": false,
-  "hideBlocklisted": false,
   "localLogin": true,
-  "mediaServerLogin": true,
   "newPlexLogin": true,
-  "discoverRegion": "",
-  "streamingRegion": "US",
+  "region": "",
   "originalLanguage": "",
-  "blocklistedTags": "",
-  "blocklistedTagsLimit": 50,
-  "mediaServerType": 1,
+  "trustProxy": false,
   "partialRequestsEnabled": true,
-  "enableSpecialEpisodes": false,
   "locale": "en",
-  "youtubeUrl": ""
+  "mediaServerType": 1
  },
  "plex": {
   "name": "leo-srv",
@@ -39,35 +34,19 @@
     "name": "Movies",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1771428000023
+    "lastScan": 1771427400054
    },
    {
     "id": "2",
     "name": "Series",
     "enabled": true,
     "type": "show",
-    "lastScan": 1771428000027
+    "lastScan": 1771427400060
    }
   ],
   "machineId": "70324db166de0de171b60286434091ee7ec5f07b"
  },
- "jellyfin": {
-  "name": "",
-  "ip": "",
-  "port": 8096,
-  "useSsl": false,
-  "urlBase": "",
-  "externalHostname": "",
-  "jellyfinForgotPasswordUrl": "",
-  "libraries": [],
-  "serverId": "",
-  "apiKey": ""
- },
  "tautulli": {},
- "metadataSettings": {
-  "tv": "tmdb",
-  "anime": "tmdb"
- },
  "radarr": [
   {
    "name": "radarr",
@@ -122,9 +101,7 @@
   "agents": {
    "email": {
     "enabled": false,
-    "embedPoster": true,
     "options": {
-     "userEmailRequired": false,
      "emailFrom": "",
      "smtpHost": "",
      "smtpPort": 587,
@@ -137,17 +114,21 @@
    },
    "discord": {
     "enabled": false,
-    "embedPoster": true,
     "types": 0,
     "options": {
      "webhookUrl": "",
-     "webhookRoleId": "",
      "enableMentions": true
+    }
+   },
+   "lunasea": {
+    "enabled": false,
+    "types": 0,
+    "options": {
+     "webhookUrl": ""
     }
    },
    "slack": {
     "enabled": false,
-    "embedPoster": true,
     "types": 0,
     "options": {
      "webhookUrl": ""
@@ -155,18 +136,15 @@
    },
    "telegram": {
     "enabled": false,
-    "embedPoster": true,
     "types": 0,
     "options": {
      "botAPI": "",
      "chatId": "",
-     "messageThreadId": "",
      "sendSilently": false
     }
    },
    "pushbullet": {
     "enabled": false,
-    "embedPoster": false,
     "types": 0,
     "options": {
      "accessToken": ""
@@ -174,7 +152,6 @@
    },
    "pushover": {
     "enabled": false,
-    "embedPoster": true,
     "types": 0,
     "options": {
      "accessToken": "",
@@ -184,7 +161,6 @@
    },
    "webhook": {
     "enabled": false,
-    "embedPoster": true,
     "types": 0,
     "options": {
      "webhookUrl": "",
@@ -193,26 +169,14 @@
    },
    "webpush": {
     "enabled": false,
-    "embedPoster": true,
     "options": {}
    },
    "gotify": {
     "enabled": false,
-    "embedPoster": false,
     "types": 0,
     "options": {
      "url": "",
-     "token": "",
-     "priority": 0
-    }
-   },
-   "ntfy": {
-    "enabled": false,
-    "embedPoster": true,
-    "types": 0,
-    "options": {
-     "url": "",
-     "topic": ""
+     "token": ""
     }
    }
   }
@@ -245,41 +209,8 @@
   "download-sync-reset": {
    "schedule": "0 0 1 * * *"
   },
-  "jellyfin-recently-added-scan": {
-   "schedule": "0 */5 * * * *"
-  },
-  "jellyfin-full-scan": {
-   "schedule": "0 0 3 * * *"
-  },
   "image-cache-cleanup": {
    "schedule": "0 0 5 * * *"
-  },
-  "process-blocklisted-tags": {
-   "schedule": "0 30 1 */7 * *"
   }
- },
- "network": {
-  "csrfProtection": false,
-  "forceIpv4First": false,
-  "trustProxy": false,
-  "proxy": {
-   "enabled": false,
-   "hostname": "",
-   "port": 8080,
-   "useSsl": false,
-   "user": "",
-   "password": "",
-   "bypassFilter": "",
-   "bypassLocalAddresses": true
-  },
-  "dnsCache": {
-   "enabled": false,
-   "forceMinTtl": 0,
-   "forceMaxTtl": -1
-  }
- },
- "migrations": [
-  "0007_migrate_arr_tags",
-  "0008_migrate_blacklist_to_blocklist"
- ]
+ }
 }

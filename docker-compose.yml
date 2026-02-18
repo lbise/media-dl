@@ -76,9 +76,10 @@ services:
       - /mnt/storage/media-dl/config/bazarr:/config # config files
       - /mnt/storage:/data
 
-  overseerr:
-      image: sctx/overseerr:latest
-      container_name: overseerr
+  seerr:
+      image: seerr/seerr:latest
+      container_name: seerr
+      user: "0:0"
       environment:
         - LOG_LEVEL=debug
         - TZ=${TZ} # timezone, defined in .env
