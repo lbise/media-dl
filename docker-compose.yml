@@ -43,6 +43,25 @@ services:
       - /mnt/storage/media-dl/config/radarr:/config # config files
       - /mnt/storage:/data
 
+  recyclarr:
+    container_name: recyclarr
+    image: ghcr.io/recyclarr/recyclarr:latest
+    restart: unless-stopped
+    network_mode: host
+    user: "${SONARRPUID}:${PGID}"
+    environment:
+      - TZ=${TZ}
+      - CRON_SCHEDULE=@daily
+    env_file:
+      - /mnt/storage/media-dl/config/recyclarr/secrets.env
+    volumes:
+      - /mnt/storage/media-dl/config/recyclarr:/config
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+
   bazarr:
     container_name: bazarr
     image: linuxserver/bazarr

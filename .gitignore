@@ -17,3 +17,9 @@ asp
 db
 **.sqlite
 **/plex/Library/**
+config/recyclarr/secrets.env
+config/recyclarr/cache/
+config/recyclarr/logs/
+config/recyclarr/configs/
+config/recyclarr/includes/
+config/recyclarr/settings.yml
