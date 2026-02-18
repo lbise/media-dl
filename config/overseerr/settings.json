@@ -33,14 +33,14 @@
     "name": "Movies",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1727003100062
+    "lastScan": 1771407900035
    },
    {
     "id": "2",
     "name": "Series",
     "enabled": true,
     "type": "show",
-    "lastScan": 1727003100074
+    "lastScan": 1771407900038
    }
   ],
   "machineId": "70324db166de0de171b60286434091ee7ec5f07b"
@@ -154,7 +154,8 @@
     "types": 0,
     "options": {
      "accessToken": "",
-     "userToken": ""
+     "userToken": "",
+     "sound": ""
     }
    },
    "webhook": {
@@ -188,6 +189,9 @@
   },
   "plex-watchlist-sync": {
    "schedule": "0 */10 * * * *"
+  },
+  "plex-refresh-token": {
+   "schedule": "0 0 5 * * *"
   },
   "radarr-scan": {
    "schedule": "0 0 4 * * *"

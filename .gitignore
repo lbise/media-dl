@@ -8,10 +8,12 @@ log
 logs*
 MediaCover
 Backups
+**backup
 releases.txt
 analytics_visitor_id.txt
 announcements.json
 Sentry
 asp
 db
-*.sqlite
+**.sqlite
+**/plex/Library/**
